@@ -1,7 +1,14 @@
 AI-Powered PDF Chatbot
 
-this bot that allows users to chat with any PDF they upload. Instead of manually searching through pages, the bot uses Retrieval-Augmented Generation (RAG) to find and explain information directly from the document. When a user uploads a PDF, the app extracts its content, splits it into smaller text chunks, and converts each chunk into vector embeddings (numerical representations that capture meaning). These embeddings are stored in a vector database.
+An intelligent chatbot that allows users to interact with any PDF document using natural language. Instead of manually searching through pages, this app uses Retrieval-Augmented Generation (RAG) to quickly find and explain relevant information.
 
+
+Features
+📄 Upload any PDF document
+💬 Ask questions in natural language
+⚡ Fast and accurate responses
+🧠 Uses embeddings for semantic search
+🔍 Retrieves only relevant content (RAG-based)
 
 How It Works:
 
@@ -30,7 +37,7 @@ Tech Stack :
 
 Language: Python
 
-Frontend: Streamlit (for web interface)
+Frontend: Streamlit (For web interface)
 
 Vector Database: Groq API
 
